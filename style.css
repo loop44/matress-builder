@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+.container {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.constructor {
+	padding-top: 30px;
+}
+
+.constructor__inner {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.constructor__title {
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.constructor__text {
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* calc block */
+
+.calc {
+	display: flex;
+	justify-content: space-between;
+}
+
+.calc__config {
+	width: 50%
+}
+
+.block__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: 1px solid #000;
+	font-weight: 700;
+}
+
+.block__item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px  0;
+}
+
+.item__details {
+	display: flex;
+	gap: 3px;
+}
+
+.item__details-price {
+	padding-left: 20px;
+}
+
+
+.calc__img {
+	width: 50%
+}
+
+.calc__img img {
+	width: 100%;
+}

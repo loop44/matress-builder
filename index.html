@@ -4,38 +4,65 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Конструктор матрасов</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div class="constructor">
 		<div class="container">
 			<div class="constructor__inner">
-				<div class="constructor__title">
+				<h1 class="constructor__title">
 					Конструктор матрасов
-				</div>
+				</h1>
 				<div class="constructor__text">
 					Для заказа нестандартного матраса выберите из редложенных категорий и позиций нужные параметры и мы изготовим его в соответствии с вашими требованиями. Вы можете выбрать любые размеры и материалы.
 				</div>
 				<div class="calc">
 					<div class="calc__config">
+						<!-- Пружинные блок -->
 						<div class="config__block">
 							<div class="block__header">
-								<p class="block__title">Ткань</p>
-								<img class="plus-btn" src="" alt="plus">
+								<p class="block__title">Пружинные блоки</p>
+								<img class="plus-btn" src="img/icons/plus.svg" width="24" alt="plus">
 							</div>
 							<div class="block__items">
 								<div class="block__item">
 									<p class="item__name">Кокос латексированный 3см</p>
 									<div class="item__details">
-										<img class="item__details-up" src="" alt="up">
-										<img class="item__details-up" src="" alt="down">
-										<p>2300 руб.</p>
+										<img class="item__details-up" src="img/icons/up.svg"  width="24" alt="up">
+										<img class="item__details-down" src="img/icons/down.svg" width="24" alt="down">
+										<img class="item__details-minus" src="img/icons/minus.svg" width="24" alt="minus">
+										<p class="item__details-price">2300 руб.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Безпружинные блоки -->
+						<div class="config__block">
+							<div class="block__header">
+								<p class="block__title">Безпружинные блоки</p>
+								<img class="plus-btn" src="img/icons/plus.svg" width="24" alt="plus">
+							</div>
+							<div class="block__items">
+								<div class="block__item">
+									<p class="item__name">Кокос латексированный 3см</p>
+									<div class="item__details">
+										<img class="item__details-up" src="img/icons/up.svg"  width="24" alt="up">
+										<img class="item__details-down" src="img/icons/down.svg" width="24" alt="down">
+										<img class="item__details-minus" src="img/icons/minus.svg" width="24" alt="minus">
+										<p class="item__details-price">2300 руб.</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="calc__img"></div>
+					<div class="calc__img">
+						<img src="img/CoiraLatex_90.png" alt="">
+					</div>
 				</div>
 			</div>
 		</div>
